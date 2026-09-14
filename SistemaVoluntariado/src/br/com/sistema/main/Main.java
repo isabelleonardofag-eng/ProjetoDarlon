@@ -8,6 +8,8 @@ package br.com.sistema.main;
 import br.com.sistema.view.FrmLogin;
 
 import br.com.sistema.jdbc.ConnectionFactory;
+import br.com.sistema.view.FrmOrganizacao;
+import br.com.sistema.view.FrmVaga;
 import br.com.sistema.view.FrmVoluntario;
 import javax.swing.JOptionPane;
 
@@ -19,10 +21,11 @@ public class Main {
     
     public static void main(String[] args){
         
-       /* FrmLogin frmLogin = new FrmLogin();
+        FrmLogin frmLogin = new FrmLogin();
           frmLogin.setVisible(true);
-        */
-        new FrmVoluntario().setVisible(true);
+       
+        //new FrmVoluntario().setVisible(true);
+      //  new FrmVaga().setVisible(true);
     }
     
 }
